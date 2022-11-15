@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+.card-text {
+  color: #08f3d8;
+}
+
 .jumbotron {
   padding-top: 5rem;
   background-color: #4cbdb089;
@@ -45,4 +49,41 @@ h5 {
 
 p {
   color: #08f3d8;
+}
+
+#organisasi {
+  background-color: #4cbdb089;
+}
+
+.img-organisasi {
+  border-radius: 10px;
+  margin: 50px;
+}
+
+i {
+  margin: 5px;
+}
+
+.icon-react,
+.icon-node,
+.icon-js {
+  margin-left: 0;
+}
+
+.card-contact {
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.icon-house {
+  display: flex;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid;
+  color: inherit;
+  margin: 1rem 0;
+  opacity: 0.25;
 }
