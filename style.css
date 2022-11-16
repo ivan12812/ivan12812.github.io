@@ -8,8 +8,14 @@
 }
 
 .jumbotron {
-  padding-top: 5rem;
+  padding-top: 8rem;
   background-color: #4cbdb089;
+  /* background-image: url(/img/bg-profile2.webp);
+  height: 100%; */
+}
+
+section {
+  padding-top: 5rem;
 }
 
 h5 {
