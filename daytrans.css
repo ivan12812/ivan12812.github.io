@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 30px;
+    width: 800px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+.header {
+    text-align: center;
+}
+
+.img-indoplat {
+    width: 100%;
+}
+
+.btn {
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .profile {
+        font-size: 10px
+        ;
+    }
+}
